@@ -200,7 +200,7 @@ async def send_history(update):
 def main():
     init_db()
 
-    application = Application.builder().token("7743409818:AAFcaP1uPv9qlZ-_UdzNqrnpb0qHr-sflt8").build()
+    application = Application.builder().token("MY TOKEN").build()
 
     # Add command handlers
     application.add_handler(CommandHandler("start", start))
